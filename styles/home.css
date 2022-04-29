@@ -1,1 +1,20 @@
 /* add home page styles here */
+#towns {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+#climates {
+    display: flex;
+    flex-direction: column;
+}
+
+.select img {
+    width: 400px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
