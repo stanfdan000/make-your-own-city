@@ -26,10 +26,17 @@ let structuresCounter = 0;
 
 climatesPic.addEventListener('change', () => {
   
-  climateCounter++;
-  climateImg.src = `./assets/${climatesPic.value}.jpg`;
-  //pickClimate.style.backgroundImage = `url('./assets/${climatesPic.value}.jpg')`;
-  console.log(climatesPic);
+    climateCounter++;
+    climateImg.src = `./assets/${climatesPic.value}.jpg`;
+    pickClimate.style.backgroundImage = `url('./assets/${climatesPic.value}.jpg')`;
+    console.log(climatesPic);
+});
+
+places.addEventListener('change', () => {
+    structuresCounter++;
+    picTown.src = `./assets/${places.value}.jpg'`;
+    buildings.style.backgroundImage = `url('./assets/${places.value}.jpg')`;
+
 });
 
  
